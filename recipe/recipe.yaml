@@ -20,9 +20,9 @@ build:
 
 requirements:
   host:
-    - hatchling
     - pip
     - python ${{ python_min }}.*
+    - uv-build
   run:
     - python >=${{ python_min }}
     - anychange >=0.2.0
