@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "0.1.4"
+  version: "0.1.6"
 
 package:
   name: fps-file-watcher-poll
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/f/fps-file-watcher-poll/fps_file_watcher_poll-${{ version }}.tar.gz
-  sha256: 7c3a397a8a18d2673164cdb8275515fa886723e2beb2a3bf4a34c1125aa1ced3
+  sha256: 3762b36d55136313df62a2fc8b4d8787f44f4f55ce7191b21a874e9cd3f6a035
 
 build:
   number: 0
