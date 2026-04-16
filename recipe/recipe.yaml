@@ -26,7 +26,10 @@ requirements:
   run:
     - python >=${{ python_min }}
     - anychange >=0.2.0
-    - jupyverse-api >=0.14.0,<0.15.0
+    - anyio
+    - fps
+    - jupyverse-api >=0.15.0,<0.16.0
+    - jupyverse-file-watcher >=0.1.0,<0.2.0
 
 tests:
   - python:
